@@ -1,0 +1,84 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero{
+height:100vh;
+background-image:url("weather-app-bg.png");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.weather-card{
+
+background: rgba(255,255,255,0.12);  
+
+backdrop-filter: blur(12px);
+
+border-radius:20px;
+
+padding:60px;              
+
+width:600px;               
+
+text-align:center;
+
+color:white;
+
+font-weight:bold;          
+
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+
+}
+
+.title{
+font-size:50px;
+font-weight:bold;
+margin-bottom:25px;}
+
+.search-box{
+display:flex;
+justify-content:center;
+margin-bottom:20px;
+}
+
+.search-box input{
+padding:12px;
+font-size:16px;
+border:none;
+outline:none;
+border-radius:5px 0 0 5px;
+width:70%;
+}
+
+.search-box button{
+padding:10px 15px;
+font-size:16px;
+font-weight:bold;
+border:none;
+background:#0077ff;
+color:white;
+border-radius:0 5px 5px 0;
+cursor:pointer;
+}
+
+.search-box button:hover{
+background:#0056b3;
+}
+
+.weather-info p{
+margin:12px 0;
+font-size:22px;
+font-weight:bold;
+}
+
+#cityName{
+font-size:26px;
+font-weight:bold;
+margin-bottom:15px;}
